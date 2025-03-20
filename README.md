@@ -1,11 +1,30 @@
-# tnk_flutter_payplus_plugin
+# 티앤케이팩토리 혜택플러스 flutter plugin
 
 티앤케이팩토리 혜택플러스 flutter plugin 입니다.
 
-TnkAd SDK는 Tnk의 광고 네트워크 상에서 광고앱 이나 매체앱을 개발하기 위하여 제공되는 통합된 SDK이며 아래의 기능들을 사용하실 수 있습니다.
+카카오 페이포인트와 연계된 보상형 오퍼월 기능이 개발되었습니다. 커스터 스키마 적용과 간단한 SDK 함수 호출을 통해 보상형 광고 화면이 노출 가능합니다.
 
-보상형/구매형 광고의 오퍼월(Offer-wall)
-분석도구(Analytics) 기능 제공으로 유입경로 별 앱사용율, 재방문율, 퍼널분석 등의 다양한 분석보고서 생성
+## tnk_flutter_payplus_plugin 설치 안내
+
+1) Tnk 사이트에서 앱 등록 및 매체 정보 등록
+
+2) 앱 내에 Tnk 충전소로 이동하는 버튼 구현
+
+## 앱 등록 및 매체 정보 등록
+
+다음 절차에 따라 회원 가입 후 광고 매체를 등록합니다.
+
+[1. 회원가입](https://tnkfactory.github.io/docs/join)
+
+[2. 매체 등록 및 app id발급방법](https://tnkfactory.github.io/incentive/APP%20ID)
+
+## Installation
+
+프로젝트의 IDE루트 경로에서 터미널을 열고 다음과 같이 실행하여 플러그인을 설치합니다.
+
+```
+flutter pub add tnk_flutter_payplus_plugin
+```
 
 ## 개발 안내
 

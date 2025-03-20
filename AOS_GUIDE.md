@@ -1,25 +1,3 @@
-# tnk_flutter_payplus_plugin 설치 안내
-
-1) Tnk 사이트에서 앱 등록 및 매체 정보 등록
-
-2) 앱 내에 Tnk 충전소로 이동하는 버튼 구현
-
-## 앱 등록 및 매체 정보 등록
-
-다음 절차에 따라 회원 가입 후 광고 매체를 등록합니다.
-
-[1. 회원가입](https://tnkfactory.github.io/docs/join)
-
-[2. 매체 등록 및 app id발급방법](https://tnkfactory.github.io/incentive/APP%20ID)
-
-## Installation
-
-프로젝트의 IDE루트 경로에서 터미널을 열고 다음과 같이 실행하여 플러그인을 설치합니다.
-
-```
-flutter pub add tnk_flutter_payplus_plugin
-```
-
 
 ### Manifest 설정하기
 
