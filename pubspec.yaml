@@ -1,6 +1,6 @@
 name: tnk_flutter_payplus_plugin
 description: "tnk payplus sdk flutter plugin support android, ios, web."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/tnkfactory/tnk_flutter_payplus_plugin
 
 environment:
