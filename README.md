@@ -9,7 +9,7 @@ TnkAd SDK는 Tnk의 광고 네트워크 상에서 광고앱 이나 매체앱을 
 
 ## 개발 안내
 
-아래 aos, ios 가이드문서에때라  프로젝트 기본 설정은 완료하시고 광고 목록을 띄우시길 바랍니다.
+아래 AOS, IOS 가이드문서에때라  프로젝트 기본 설정은 완료하시고 광고 목록을 띄우시길 바랍니다.
 
 [안드로이드 가이드](https://github.com/tnkfactory/tnk_flutter_rwd_plugin/blob/master/guide_android.md)
 
