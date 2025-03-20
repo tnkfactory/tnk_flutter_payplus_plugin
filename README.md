@@ -11,9 +11,9 @@ TnkAd SDK는 Tnk의 광고 네트워크 상에서 광고앱 이나 매체앱을 
 
 아래 AOS, IOS 가이드문서에때라  프로젝트 기본 설정은 완료하시고 광고 목록을 띄우시길 바랍니다.
 
-[안드로이드 가이드](https://github.com/tnkfactory/tnk_flutter_rwd_plugin/blob/master/guide_android.md)
+[안드로이드 가이드](https://github.com/tnkfactory/tnk_flutter_payplus_plugin/blob/main/AOS_GUIDE.md)
 
-[iOS 가이드](https://github.com/tnkfactory/tnk_flutter_rwd_plugin/blob/master/guide_ios.md)
+[iOS 가이드](https://github.com/tnkfactory/tnk_flutter_payplus_plugin/blob/main/IOS_GUIDE.md)
 
 위와같은 과정을 마치고 나면 플러터 프로젝트에서 광고 페이지를 호출 하실 수 있습니다.
 
