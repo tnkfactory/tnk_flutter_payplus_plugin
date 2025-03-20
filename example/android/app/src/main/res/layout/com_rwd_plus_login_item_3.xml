@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tnk_color_background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/com_pay_plus_join_script_bg"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!--            <View-->
+            <!--                android:id="@+id/com_tnk_rwd_kakao_logo_1"-->
+            <!--                android:layout_width="58dp"-->
+            <!--                android:layout_height="24dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:background="@drawable/com_tnk_rwd_kakao_logo_1"-->
+            <!--                app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--                app:layout_constraintRight_toRightOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+            <TextView
+                android:id="@+id/com_tnk_off_login_script_1"
+                style="@style/com_tnk_off_rwd_plus_h4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="카카오페이포인트는"
+                android:textColor="@color/tnk_color_text_02"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/com_tnk_off_login_script_2"
+                style="@style/com_tnk_off_rwd_plus_h4b"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="30만 개의 온·오프라인 카카오페이\n사용처에서 결제가 가능해요!"
+                android:textColor="@color/tnk_color_text_02"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/com_tnk_off_login_script_1" />
+
+
+            <View
+                android:id="@+id/com_tnk_rwd_kakao_logo_1"
+                android:layout_width="60dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/com_pay_plus_join_desc_img_3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/com_tnk_off_login_script_2" />
+
+            <!-- 카카오 페이 사용처 보기 -->
+            <TextView
+                android:id="@+id/com_tnk_off_move_to_use_kakao_pay"
+                style="@style/com_tnk_off_rwd_plus_h3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_horizontal|top"
+                android:text="페이포인트 사용처 보기"
+                android:textColor="@color/tnk_rwd_kakao_blue_01"
+                android:textFontWeight="500"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/com_tnk_off_login_script_arrow"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <View
+                android:id="@+id/com_tnk_off_login_script_arrow"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/com_tnk_rwd_kakao_login_link_arrow"
+                app:layout_constraintBottom_toBottomOf="@+id/com_tnk_off_move_to_use_kakao_pay"
+                app:layout_constraintLeft_toRightOf="@id/com_tnk_off_move_to_use_kakao_pay"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/com_tnk_off_move_to_use_kakao_pay" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
