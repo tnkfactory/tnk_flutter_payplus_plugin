@@ -129,3 +129,15 @@ Proguard를 사용하실 경우 Proguard 설정내에 아래 내용을 반드시
 -keep class com.tnkfactory.** { *;}
 ```
 
+### xml 리소스 추가 
+
+res/layout 폴더에 다음과 같이 xml 리소스를 추가합니다.
+
+[xml파일 다운로드](https://github.com/tnkfactory/tnk_flutter_payplus_plugin/tree/main/example/android/app/src/main/res/layout)
+
+- com_rwd_plus_login_item_1.xml
+- com_rwd_plus_login_item_2.xml
+- com_rwd_plus_login_item_3.xml
+
+![img.png](login_item_image.png)
+
