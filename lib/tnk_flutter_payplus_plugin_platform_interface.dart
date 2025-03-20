@@ -1,5 +1,3 @@
-import 'dart:collection';
-
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'tnk_flutter_payplus_plugin_method_channel.dart';
